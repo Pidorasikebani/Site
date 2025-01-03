@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        img {
+            width: 80%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать на мой сайт!</h1>
+    
+    <div class="buttons">
+        <button class="btn" onclick="window.location.href='https://example.com'">Перейти на сайт</button>
+        <button class="btn" onclick="alert('Вы нажали кнопку 2!')">Кнопка 2</button>
+        <button class="btn" onclick="alert('Вы нажали кнопку 3!')">Кнопка 3</button>
+    </div>
+
+    <div>
+        <img src="image.jpg" alt="Моя картинка"> <!-- Картинка будет локальной -->
+    </div>
+</body>
+  </html>
